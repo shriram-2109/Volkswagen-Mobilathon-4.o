@@ -31,8 +31,10 @@ EMAIL_PASSWORD = "your-password"
 RECIPIENT_EMAILS = ["recipient1@example.com", "recipient2@example.com"]
 ```
 5. Replace dataset file path in setup_forecasting() function
-
-6. Run the dashboard:
+```
+data = pd.read_csv(r"Path_to_dataset")
+```
+7. Run the dashboard:
 ```bash
 streamlit run app.py
 ```
