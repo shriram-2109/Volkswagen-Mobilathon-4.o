@@ -6,8 +6,8 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/MuthuPalaniappan925/Volkswagen-OEM-Anomaly-Detection-Dashboard.git
-cd Volkswagen-OEM-Anomaly-Detection-Dashboard
+git clone https://github.com/shriram-2109/Volkswagen-Mobilathon-4.o.git
+cd Volkswagen-Mobilathon-4.o.git
 ```
 
 2. Create and activate virtual environment (optional):
@@ -30,12 +30,15 @@ EMAIL_USER = "your-email@example.com"
 EMAIL_PASSWORD = "your-password"
 RECIPIENT_EMAILS = ["recipient1@example.com", "recipient2@example.com"]
 ```
-
+5. Replace dataset file path in setup_forecasting() function
+'''py
+data = pd.read_csv(r"Path_to_dataset")
+'''
 ## Usage
 
 Run the dashboard:
 ```bash
-streamlit run main.py
+streamlit run app.py
 ```
 
 
