@@ -32,8 +32,7 @@ RECIPIENT_EMAILS = ["recipient1@example.com", "recipient2@example.com"]
 ```
 5. Replace dataset file path in setup_forecasting() function
 
-data = pd.read_csv(r"Path_to_dataset")
-Run the dashboard:
+6. Run the dashboard:
 ```bash
 streamlit run app.py
 ```
